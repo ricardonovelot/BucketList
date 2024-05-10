@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CB2A8F52BED7F9500FA2BB0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */; };
+		8CB2A8F72BED9A3E00FA2BB0 /* WikipediaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */; };
+		8CB2A8F92BEDAB9200FA2BB0 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */; };
 		8CFA97FF2BEC56B20037D83A /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA97FE2BEC56B20037D83A /* BucketListApp.swift */; };
 		8CFA98012BEC56B20037D83A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA98002BEC56B20037D83A /* ContentView.swift */; };
 		8CFA98032BEC56B40037D83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFA98022BEC56B40037D83A /* Assets.xcassets */; };
 		8CFA98062BEC56B40037D83A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFA98052BEC56B40037D83A /* Preview Assets.xcassets */; };
+		8CFA980D2BEC59C80037D83A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFA980C2BEC59C80037D83A /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaResult.swift; sourceTree = "<group>"; };
+		8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 		8CFA97FB2BEC56B20037D83A /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFA97FE2BEC56B20037D83A /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		8CFA98002BEC56B20037D83A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8CFA98022BEC56B40037D83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CFA98052BEC56B40037D83A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CFA980C2BEC59C80037D83A /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +43,9 @@
 		8CFA97F22BEC56B20037D83A = {
 			isa = PBXGroup;
 			children = (
+				8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */,
+				8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */,
+				8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */,
 				8CFA97FD2BEC56B20037D83A /* BucketList */,
 				8CFA97FC2BEC56B20037D83A /* Products */,
 			);
@@ -53,6 +64,7 @@
 			children = (
 				8CFA97FE2BEC56B20037D83A /* BucketListApp.swift */,
 				8CFA98002BEC56B20037D83A /* ContentView.swift */,
+				8CFA980C2BEC59C80037D83A /* Location.swift */,
 				8CFA98022BEC56B40037D83A /* Assets.xcassets */,
 				8CFA98042BEC56B40037D83A /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB2A8F72BED9A3E00FA2BB0 /* WikipediaResult.swift in Sources */,
+				8CB2A8F92BEDAB9200FA2BB0 /* ContentView-ViewModel.swift in Sources */,
 				8CFA98012BEC56B20037D83A /* ContentView.swift in Sources */,
+				8CFA980D2BEC59C80037D83A /* Location.swift in Sources */,
+				8CB2A8F52BED7F9500FA2BB0 /* EditView.swift in Sources */,
 				8CFA97FF2BEC56B20037D83A /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
