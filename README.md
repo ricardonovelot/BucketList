@@ -15,9 +15,9 @@ The Bucket List app, developed in SwiftUI, helps users catalog places they wish 
 
 ### Technical Highlights
 
+- MVVM architectural pattern 
 - Implementation of asynchronous data fetching from the Wikipedia API to enrich location information.
 - Use of `Map`, `Annotation`, and other MapKit components for geospatial features.
-- Custom handling of Codable structures to parse complex JSON data from web APIs.
 
 </td>
 <td>
