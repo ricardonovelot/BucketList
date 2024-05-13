@@ -8,12 +8,14 @@
 import Foundation
 import MapKit
 import CoreLocation
+import LocalAuthentication
 
 extension ContentView{ // we are saing this is the view model for ContentView
     @Observable // reports back to any swiftui view that's watching
     class ViewModel{
         
         private(set) var locations: [Location] // in private(set) we’ve said that reading locations is fine, but only the class itself can write locations
+        var isUnlocked = false
         var selectedPlace: Location? //in addition, using this property to decide if we show the details sheet
         let savePath = URL.documentsDirectory.appending(path: "SavedPlaces")
         
@@ -48,6 +50,26 @@ extension ContentView{ // we are saing this is the view model for ContentView
                 try data.write(to: savePath, options: [.atomic, .completeFileProtection]) // try to write data// try data.write(to: loc, options: [])
             } catch {
                 print("Unable to save data.")
+            }
+        }
+        
+        func authenticate() {
+            let context = LAContext() //something that can check and perform biometric authentication.
+            var error: NSError?
+
+            if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) { //whether the current device is capable of biometric authentication.
+                let reason = "Please authenticate yourself to unlock your places."
+
+                context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { success, authenticationError in //start the request
+
+                    if success {
+                        self.isUnlocked = true
+                    } else {
+                        // error
+                    }
+                }
+            } else {
+                // no biometrics
             }
         }
         
