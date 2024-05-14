@@ -1,4 +1,4 @@
-# Bucket List App
+# BucketList
 
 <table>
 <tr>
@@ -6,7 +6,7 @@
 
 ## About the Project
 
-Bucket List helps users catalog places they wish to visit with descriptions and relevant information.
+BucketList helps users catalog places they wish to visit with descriptions and relevant information.
 
 ### Features
 
@@ -48,3 +48,5 @@ This project is released under the MIT License. For more details, see the [LICEN
 
 - "Hacking with Swift" course by Paul Hudson for foundational SwiftUI concepts and project guidance.
 - The SwiftUI and iOS developer communities for their continuous support and insights.
+
+As seen in my [Recent Projects](https://github.com/ricardonovelot)
