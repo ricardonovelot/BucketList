@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C97DB322BF3D68700FD6542 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97DB312BF3D68700FD6542 /* MainView.swift */; };
+		8C97DB382BF3FE2700FD6542 /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97DB372BF3FE2700FD6542 /* EditView-ViewModel.swift */; };
 		8CB2A8F52BED7F9500FA2BB0 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */; };
 		8CB2A8F72BED9A3E00FA2BB0 /* WikipediaResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */; };
 		8CB2A8F92BEDAB9200FA2BB0 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C97DB312BF3D68700FD6542 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8C97DB372BF3FE2700FD6542 /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 		8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaResult.swift; sourceTree = "<group>"; };
 		8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				8CB2A8F82BEDAB9200FA2BB0 /* ContentView-ViewModel.swift */,
+				8C97DB372BF3FE2700FD6542 /* EditView-ViewModel.swift */,
 				8CB2A8F62BED9A3E00FA2BB0 /* WikipediaResult.swift */,
 				8CB2A8F42BED7F9400FA2BB0 /* EditView.swift */,
 				8CFA97FD2BEC56B20037D83A /* BucketList */,
@@ -63,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				8CFA97FE2BEC56B20037D83A /* BucketListApp.swift */,
+				8C97DB312BF3D68700FD6542 /* MainView.swift */,
 				8CFA98002BEC56B20037D83A /* ContentView.swift */,
 				8CFA980C2BEC59C80037D83A /* Location.swift */,
 				8CFA98022BEC56B40037D83A /* Assets.xcassets */,
@@ -150,9 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB2A8F72BED9A3E00FA2BB0 /* WikipediaResult.swift in Sources */,
+				8C97DB322BF3D68700FD6542 /* MainView.swift in Sources */,
 				8CB2A8F92BEDAB9200FA2BB0 /* ContentView-ViewModel.swift in Sources */,
 				8CFA98012BEC56B20037D83A /* ContentView.swift in Sources */,
 				8CFA980D2BEC59C80037D83A /* Location.swift in Sources */,
+				8C97DB382BF3FE2700FD6542 /* EditView-ViewModel.swift in Sources */,
 				8CB2A8F52BED7F9500FA2BB0 /* EditView.swift in Sources */,
 				8CFA97FF2BEC56B20037D83A /* BucketListApp.swift in Sources */,
 			);
@@ -291,7 +299,8 @@
 				DEVELOPMENT_TEAM = 8PKHC34MY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Unlock";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please provide your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,7 +330,8 @@
 				DEVELOPMENT_TEAM = 8PKHC34MY2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please Unlock";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please provide your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
