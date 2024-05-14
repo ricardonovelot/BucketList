@@ -6,7 +6,7 @@
 
 ## About the Project
 
-The Bucket List app, developed in SwiftUI, helps users catalog places they wish to visit with descriptions and relevant information.
+Bucket List helps users catalog places they wish to visit with descriptions and relevant information.
 
 ### Features
 
@@ -15,14 +15,14 @@ The Bucket List app, developed in SwiftUI, helps users catalog places they wish 
 
 ### Technical Highlights
 
-- MVVM architectural pattern 
-- Implementation of asynchronous data fetching from the Wikipedia API to enrich location information.
-- Use of `Map`, `Annotation`, and other MapKit components for geospatial features.
+- MVVM
+- Wikipedia API
+- MapKit
 
 </td>
 <td>
 
-![export8B50D55D-8E23-4E6C-BC9D-850620FD4761](https://github.com/ricardonovelot/BucketList/assets/84286086/f915c527-641e-4127-bc03-594336316ee5)
+![export4D28C2BA-34FA-4888-8AA0-A2431419FD15](https://github.com/ricardonovelot/BucketList/assets/84286086/93ef63e3-1f35-4300-bc45-db9911c91936)
 
 </td>
 </tr>
