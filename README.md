@@ -18,6 +18,7 @@ Bucket List helps users catalog places they wish to visit with descriptions and 
 - MVVM
 - Wikipedia API
 - MapKit
+- Documents Directory
 
 </td>
 <td>
