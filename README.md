@@ -20,6 +20,8 @@ BucketList helps users catalog places they wish to visit with descriptions and r
 - MapKit
 - Documents Directory
 
+As showcased in my [recent projects](https://github.com/ricardonovelot)
+
 </td>
 <td>
 
