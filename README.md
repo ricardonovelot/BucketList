@@ -35,7 +35,7 @@
 
 <h2>Installation and Usage</h2>
 <ol>
-<li>Clone the GitHub repository: <code>git clone https://github.com/ricardonovelot/BucketList.git</code></li>
+<li>Clone the GitHub repository.
 <li>Open the project in Xcode.</li>
 <li>Select a suitable simulator or connected iOS device.</li>
 <li>Build and run the app.</li>
