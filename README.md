@@ -12,7 +12,8 @@
 <h3>Features</h3>
 <ul>
 <li><strong>Place Addition and Editing:</strong> Users can add new places with a press on the map and edit them through a detailed form.</li>
-<li><strong>Location Details:</strong> Displays custom descriptions for each location.</li>
+<li><strong>Place Details:</strong> Displays custom descriptions for each location.</li>
+<li><strong>Filter Favorites</strong>
 </ul>
 
 <h3>Technical Highlights</h3>
