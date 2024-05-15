@@ -49,5 +49,3 @@
 <p>"Hacking with Swift" course by Paul Hudson for foundational SwiftUI concepts and project guidance.</p>
 <p>The SwiftUI and iOS developer communities for their continuous support and insights.</p>
 <br>
-
-As showcased in my <a href="https://github.com/ricardonovelot">recent projects</a>
